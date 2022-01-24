@@ -10,9 +10,10 @@ CONSULTAS ESPACIALES
 2. ¿En qué sistema de referencia de coordenadas (SRC) está la capa de cantones?
 3. ¿Cuáles son las coordenadas de los volcanes activos en El Salvador?
 4. ¿Qué área en km cuadrados tiene el lago de Coatepeque?
-5. ¿Qué ríos o quebradas tienen una longitud menor a 1 km?
-6. ¿Cuántos ríos o quebradas tienen una longitud menor a 1 km?
-7. ¿Qué longitud en km tiene el Bulevar Monseñor Romero?
-8. ¿Cómo se distribuyen espacialmente las escuelas ubicadas en municipios de pobreza severa?
-9. ¿Qué lagos son compartidos por varios municipios?
-10. ¿Qué escuelas del municipio Puerto de la Libertad están ubicadas en la zona de susceptibilidad a inundación del río Grande de Tamanique? La zona de riesgo se ha delimitado como 700 m a cada lado del río.
+5. ¿Que distancia en línea recta hay entre en centro escolar CENTRO ESCOLAR "CANTON LAS GRANADILLAS" y el RIO LAS GRANADILLAS?
+6. ¿Qué ríos o quebradas tienen una longitud menor a 1 km?
+7. ¿Cuántos ríos o quebradas tienen una longitud menor a 1 km?
+8. ¿Qué longitud en km tiene el Bulevar Monseñor Romero?
+9. ¿Cómo se distribuyen espacialmente las escuelas ubicadas en municipios de pobreza severa?
+10. ¿Qué lagos son compartidos por varios municipios?
+11. ¿Qué escuelas del municipio Puerto de la Libertad están ubicadas en la zona de susceptibilidad a inundación del río Grande de Tamanique? La zona de riesgo se ha delimitado como 700 m a cada lado del río.
