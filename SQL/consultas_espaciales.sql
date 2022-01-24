@@ -19,6 +19,17 @@ SELECT ST_Area(L.geom) AS area_lago
 FROM "lagos" l
 WHERE d.nom_dpto = 'LAGO DE COATEPEQUE';
 
+-- ¿Qué ríos o quebradas tienen una longitud menor a 1 km?
+SELECT r.nom, r.geom, ST_length(r.geom) as longitud
+FROM rios r
+WHERE ST_length(r.geom) < 1000
+ORDER BY longitud
+
+-- ¿Cuántos ríos o quebradas tienen una longitud menor a 1 km?
+SELECT count(r.geom)
+FROM rios r
+WHERE ST_length(r.geom) < 1000
+
 --¿Qué longitud en km tiene el Bulevar Monseñor Romero?
 SELECT SUM(st_length(viasL_200K_CNR2013.geometry)) as longitud_carretera
 FROM viasL_200K_CNR2013
