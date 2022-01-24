@@ -19,7 +19,7 @@ SELECT ST_Area(L.geom) AS area_lago
 FROM "lagos" l
 WHERE d.nom_dpto = 'LAGO DE COATEPEQUE';
 
--- ¿Qué distancia?
+-- ¿Que distancia en línea recta hay entre en centro escolar CENTRO ESCOLAR "CANTON LAS GRANADILLAS" y el RIO LAS GRANADILLAS?
 SELECT ST_distance(e.geom, r.geom)
 FROM escuelas e, rios r
 WHERE e."NOMBRE_CEN" = 'CENTRO ESCOLAR "CANTON LAS GRANADILLAS"' and r.nom = 'RIO LAS GRANADILLAS'
