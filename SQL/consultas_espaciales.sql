@@ -1,3 +1,8 @@
+SELECT v.nom, st_astext(v.geom) as coord
+FROM volcanes v
+WHERE v.status = 'Activo-histórico'
+--------------------------------------------
+
 SELECT ST_Area(L.geom) AS area_lago
 FROM "lagos" l
 WHERE d.nom_dpto = 'LAGO DE COATEPEQUE';
