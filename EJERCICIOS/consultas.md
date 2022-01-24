@@ -6,6 +6,8 @@ CONSULTAS DE ATRIBUTOS
 * ¿Qué municipios son de pobreza baja y tienen población mayor a 100000 habitantes?
 
 CONSULTAS ESPACIALES
+* ¿Qué área en km cuadrados tiene el lago de Coatepeque?
+* ¿Qué longitud en km tiene el Bulevar Monseñor Romero?
 * ¿Cómo se distribuyen espacialmente las escuelas ubicadas en municipios de pobreza severa?
 * ¿Qué lagos son compartidos por varios municipios?
 * ¿Qué escuelas del municipio Puerto de la Libertad están ubicadas en la zona de susceptibilidad a inundación del río Grande de Tamanique? La zona de riesgo se ha delimitado como 700 m a cada lado del río.
