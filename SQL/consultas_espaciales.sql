@@ -1,3 +1,8 @@
+SELECT SUM(st_length(viasL_200K_CNR2013.geometry))
+FROM viasL_200K_CNR2013
+WHERE viasL_200K_CNR2013.NOM = 'Bulevar Monseñor Romero'
+------------------------------------------
+
 SELECT m.cod_mun4, m.nom_mun, e.nombre_cen, e.geom
 from escuelas_lcc as e, municipios_lcc as m
 WHERE m.pobr_fisdl = 'Pobreza Severa'
