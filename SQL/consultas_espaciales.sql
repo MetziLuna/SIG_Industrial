@@ -1,4 +1,8 @@
-SELECT SUM(st_length(viasL_200K_CNR2013.geometry))
+SELECT ST_Area(L.geom) AS area_lago
+FROM "lagos" l
+WHERE d.nom_dpto = 'LAGO DE COATEPEQUE';
+-------------------------------------------
+SELECT SUM(st_length(viasL_200K_CNR2013.geometry)) as longitud_carretera
 FROM viasL_200K_CNR2013
 WHERE viasL_200K_CNR2013.NOM = 'Bulevar Monseñor Romero'
 ------------------------------------------
