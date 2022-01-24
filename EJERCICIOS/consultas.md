@@ -10,6 +10,8 @@ CONSULTAS ESPACIALES
 * ¿En qué sistema de referencia de coordenadas (SRC) está la capa de cantones?
 * ¿Cuáles son las coordenadas de los volcanes activos en El Salvador?
 * ¿Qué área en km cuadrados tiene el lago de Coatepeque?
+* ¿Qué ríos o quebradas tienen una longitud menor a 1 km?
+* ¿Cuántos ríos o quebradas tienen una longitud menor a 1 km?
 * ¿Qué longitud en km tiene el Bulevar Monseñor Romero?
 * ¿Cómo se distribuyen espacialmente las escuelas ubicadas en municipios de pobreza severa?
 * ¿Qué lagos son compartidos por varios municipios?
