@@ -6,8 +6,8 @@ CONSULTAS DE ATRIBUTOS
 * ¿Qué municipios son de pobreza baja y tienen población mayor a 100000 habitantes?
 
 CONSULTAS ESPACIALES
-* Indique el nombre del municipio que tenga geometría inválida.
-* ¿En qué sistema de referencia de coordenadas (SRC) está la capa de cantones?
+1. Indique el nombre del municipio que tenga geometría inválida.
+2. ¿En qué sistema de referencia de coordenadas (SRC) está la capa de cantones?
 * ¿Cuáles son las coordenadas de los volcanes activos en El Salvador?
 * ¿Qué área en km cuadrados tiene el lago de Coatepeque?
 * ¿Qué ríos o quebradas tienen una longitud menor a 1 km?
