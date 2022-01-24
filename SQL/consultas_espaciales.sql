@@ -1,4 +1,8 @@
+SELECT m.nom_mun
+FROM municipios m
+WHERE ST_ISVALID(m.geom) = False
 
+----------------------------------------
 SELECT ST_SRID(c.geom)
 FROM cantones as c
 LIMIT 1
