@@ -1,3 +1,9 @@
+
+SELECT ST_SRID(c.geom)
+FROM cantones as c
+LIMIT 1
+-----------------------------------------
+
 SELECT v.nom, st_astext(v.geom) as coord
 FROM volcanes v
 WHERE v.status = 'Activo-histórico'
