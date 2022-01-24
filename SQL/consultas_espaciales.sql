@@ -19,6 +19,11 @@ SELECT ST_Area(L.geom) AS area_lago
 FROM "lagos" l
 WHERE d.nom_dpto = 'LAGO DE COATEPEQUE';
 
+-- ¿Qué distancia?
+SELECT ST_distance(e.geom, r.geom)
+FROM escuelas e, rios r
+WHERE e."NOMBRE_CEN" = 'CENTRO ESCOLAR "CANTON LAS GRANADILLAS"' and r.nom = 'RIO LAS GRANADILLAS'
+
 -- ¿Qué ríos o quebradas tienen una longitud menor a 1 km?
 SELECT r.nom, r.geom, ST_length(r.geom) as longitud
 FROM rios r
