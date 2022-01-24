@@ -6,6 +6,7 @@ CONSULTAS DE ATRIBUTOS
 * ¿Qué municipios son de pobreza baja y tienen población mayor a 100000 habitantes?
 
 CONSULTAS ESPACIALES
+* ¿Cuáles son las coordenadas de los volcanes activos en El Salvador?
 * ¿Qué área en km cuadrados tiene el lago de Coatepeque?
 * ¿Qué longitud en km tiene el Bulevar Monseñor Romero?
 * ¿Cómo se distribuyen espacialmente las escuelas ubicadas en municipios de pobreza severa?
