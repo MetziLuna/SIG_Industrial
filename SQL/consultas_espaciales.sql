@@ -15,8 +15,8 @@ FROM volcanes v
 WHERE v.status = 'Activo-histórico'
 
 --¿Qué área en km cuadrados tiene el lago de Coatepeque?
-SELECT ST_Area(L.geom) AS area_lago
-FROM "lagos" l
+SELECT ST_Area(l.geom) AS area_lago
+FROM lagos l
 WHERE d.nom_dpto = 'LAGO DE COATEPEQUE';
 
 -- ¿Que distancia en línea recta hay entre en centro escolar CENTRO ESCOLAR "CANTON LAS GRANADILLAS" y el RIO LAS GRANADILLAS?
